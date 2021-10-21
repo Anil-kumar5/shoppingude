@@ -1,0 +1,42 @@
+.completed{
+  text-decoration: line-through;
+  opacity: 0.5;
+ 
+}
+body{
+  /* background:tomato; */
+  /* color:white; */
+}
+.formcontainer{
+  display: flex;
+  justify-content: center;
+  margin-top:10px;
+}
+.formselect{
+  margin-left:25px;
+}
+.btnform{
+  background: green;
+}
+.inputform{
+  width:40vw;
+}
+.container{
+  display:flex;
+  justify-content: space-between;
+}
+li{
+  list-style-type: none;
+}
+.delete{
+  background: red;
+}
+.check{
+  background: green;
+}
+.cont{
+  display: flex;
+  justify-content: center;
+  margin-top:10px;
+}
+

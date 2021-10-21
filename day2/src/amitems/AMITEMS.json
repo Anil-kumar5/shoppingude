@@ -1,0 +1,52 @@
+{
+    "items":[
+        {
+           "image":"./drives.png",
+           "name":"dell cpu's and laptops",
+           "currentBidAmount":"Rs 50,000.00",
+           "buynowBidAmount":"Rs 80,000.00",
+           "timeLeft" : "4h:31m:27s",
+           "numOfBids" : "30 Bids"
+        },
+        {
+            "image":"./laptops.png",
+            "name":"laptops",
+            "currentBidAmount":"Rs 50,000.00",
+            "buynowBidAmount":"Rs 80,000.00",
+            "timeLeft" : "4h:31m:27s",
+            "numOfBids" : "30 Bids"
+         },
+         {
+            "image":"./cpu.png",
+            "name":"cpu's for sale",
+            "currentBidAmount":"Rs 50,000.00",
+            "buynowBidAmount":"Rs 80,000.00",
+            "timeLeft" : "4h:31m:27s",
+            "numOfBids" : "30 Bids"
+         },
+         {
+            "image":"./lapi.png",
+            "name":"laptops",
+            "currentBidAmount":"Rs 50,000.00",
+            "buynowBidAmount":"Rs 80,000.00",
+            "timeLeft" : "4h:31m:27s",
+            "numOfBids" : "30 Bids"
+         },
+         {
+            "image":"./lapi's.png",
+            "name":"laptops",
+            "currentBidAmount":"Rs 50,000.00",
+            "buynowBidAmount":"Rs 80,000.00",
+            "timeLeft" : "4h:31m:27s",
+            "numOfBids" : "30 Bids"
+         },
+         {
+            "image":"./laptops2.png",
+            "name":"laptops",
+            "currentBidAmount":"Rs 50,000.00",
+            "buynowBidAmount":"Rs 80,000.00",
+            "timeLeft" : "4h:31m:27s",
+            "numOfBids" : "30 Bids"
+         }
+    ]
+}

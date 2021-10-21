@@ -1,0 +1,36 @@
+{
+    "products":[
+        {
+            "_id":"dress1",
+            "title":"shirtone",
+            "image":"./s1.jpg",
+            "availableSizes":["L","XL","XXL"],
+            "description":"good quality",
+            "price":1000
+        },
+        {
+            "_id":"dress2",
+            "title":"shirttwo",
+            "image":"./s2.jpg",
+            "availableSizes":["L","XL","XXL","M","S"],
+            "description":"good quality",
+            "price":2000
+        },
+        {
+            "_id":"dress3",
+            "title":"shirtthree",
+            "image":"./s3.jpg",
+            "availableSizes":["L","XL","XXL","XXXL"],
+            "description":"good quality",
+            "price":3000
+        },
+        {
+            "_id":"dress4",
+            "title":"shirtfour",
+            "image":"./s4.jpg",
+            "availableSizes":["L","XL","M","XS"],
+            "description":"good quality",
+            "price":4000
+        }       
+    ]
+}

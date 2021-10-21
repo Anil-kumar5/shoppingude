@@ -1,0 +1,23 @@
+/* .slide{
+    position: relative;
+    height:100vh;
+    display:flex;
+    justify-content: center;   
+    align-items: center;  
+}  */
+img{
+    width:1000px;
+    height:200px;
+}
+.rightarrow{
+    position:absolute;
+    top:50%;
+    right:32px;
+
+}
+.leftarrow{
+    position:absolute;
+    top:50%;
+    left:32px;
+}
+

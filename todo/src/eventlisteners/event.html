@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height:100vh;
+            background-color: blueviolet;
+        }
+         body,div{
+             display: flex;
+             justify-content: center;
+             align-items: center;
+         }
+        .grandparent{
+            width:200px;
+            height:200px;
+            background-color: red;
+        }
+        .parent{
+            width:120px;
+            height:120px;
+            background-color: blue;
+        }
+        .child{
+            height:60px;
+            width:60px;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1 id="header1">grandparent</h1> -->
+    <!-- <h2 class="header2">parent</h2> -->
+    <!-- <h3 class="header3">child</h3> -->
+    <div class="grandparent">
+        <div class="parent">
+            <div class="child">
+
+            </div>
+        </div>
+    </div>
+    <script>
+        // const header = document.getElementById('header1');
+        // const headers = document.querySelector('.header2');
+        // header.addEventListener('click',()=>console.log('clicked'));
+        // headers.addEventListener('click',()=>console.log('header2 clicked'))
+        //  document.querySelector('.header3').addEventListener('click',()=>console.log('child clicked'))
+        const grandparent = document.querySelector('.grandparent');
+        const parent = document.querySelector('.parent');
+        const child = document.querySelector('.child');
+        grandparent.addEventListener('click',()=>console.log('grandparent clicked'),{capture:true});
+        // parent.addEventListener('click',(e)=>{console.log('parent clicked'),e.stopPropagation()});
+        parent.addEventListener('click',()=>console.log('parent clicked'),{once:true})
+        child.addEventListener('click',()=>console.log('child clicked'));
+        document.addEventListener('click',()=>console.log('document clicked'));
+        // child.addEventListener('click',e=>console.log(e));
+        // in above addeventlistener funct passing type of event as a first arguement and second one is a function
+        //here all our events are bubble means it goes from bottom to top in the tree
+        // capture means it goes from top to bottom in tree by default capture is false
+        //first it checks any capure set to true from top to bottom when anything set to true then the event happens first
+        //and then bubble starts and it goes from reverse
+        // and we use the stoppropagation to stop the events from next onwards
+        // if you set once to true i.e., it means its executed only once
+    </script>
+</body>
+</html>

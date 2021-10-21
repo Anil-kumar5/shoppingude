@@ -1,0 +1,10 @@
+.tableheadings{
+    display: flex;
+    justify-content: space-around;
+}
+.datatoretrieve{
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    border:10px solid rebeccapurple;
+}

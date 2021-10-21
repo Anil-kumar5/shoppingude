@@ -1,0 +1,112 @@
+
+.imglink{
+  border:2px solid grey;
+  position: relative;
+  left:25px;
+  top:10px;
+  margin-left: 100px;
+}
+#techouts{
+  display:inline;
+  color:aqua;
+  background: black;
+}
+
+
+.images{
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+  margin-left: 20px;
+  position:absolute;
+}
+.one{
+  top:0%;
+  left:0%;
+  z-index: 1;
+}
+.two{
+  top:10%;
+  left:10%;
+  z-index: -1;
+}
+.three{
+  top:20%;
+  left:20%;
+}
+.before{
+  font-size: 22px;
+}
+.before::before{
+  content:"hello ";
+}
+.before::after{
+  content:' avula'
+}
+
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #03a9f4;
+
+}
+.container{
+  padding: 40px;
+ background: #182b3c;
+ box-shadow: 0 15px 25px rgba(0,0,0,0.4);
+}
+h2{
+  color: white;
+  margin-bottom:10px;
+  border-bottom: 2px solid white;
+}
+.container ul li{
+  position: relative;
+  list-style-type: none;
+  margin:12px 0 ;
+  padding-left:34px;
+  padding-right:5px;
+}
+.container ul li::before{
+  content:'';
+  position: absolute;
+  top:0;
+  left:0;
+  width:34px;
+  height:34px;
+  background:transparent;
+  border-radius: 34px;
+  transition: background 0.5s, width 0.5s;
+  transition-delay:0.5s 0s ;
+  border: 2px solid #03a9f4;
+}
+.container ul li p{
+  position: relative;
+  padding:5px 10px;
+  color:white;
+  z-index:10;
+}
+.container ul li:hover::before{
+  background: black;
+  width:100%;
+  transition-delay:0s 0.5s ;
+}
+.container ul li::after{
+  content:'';
+  position:absolute;
+  top:15px;
+  left:12px;
+  height:6px;
+  width:6px;
+  border-top:2px solid red;
+  border-right:2px solid red;
+  transform:rotate(45deg)
+}

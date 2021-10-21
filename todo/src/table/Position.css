@@ -1,0 +1,39 @@
+.parent{
+    /* width:50%;
+    height:50vh;
+    border:2px solid red; */
+    /* background-color: purple; */
+}
+.childone{
+    /* width:50%;
+    height:50%;
+    border: 2px solid yellowgreen;
+    position: absolute;
+    bottom:20%; */
+    /* background-color: rebeccapurple; */
+}
+ .childtwo{
+    /* width:50%;
+    height:50%;
+    border:2px solid purple; */
+    /* background-color: red; */
+}
+.childthree{
+    /* width:50%;
+    height:50%;
+    border:2px solid blue;
+    position: absolute;
+    bottom: 0; */
+    /* background-color: royalblue; */
+} 
+.buttonone{
+    position: relative;
+    top:10px;
+    left:40px;
+    z-index:-1;
+}
+.buttontwo{
+    position: relative;
+    top:10px;
+    left:-40px;
+}

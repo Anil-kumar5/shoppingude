@@ -1,0 +1,42 @@
+.cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    width:68%;
+    height:40px;
+    background:grey;
+    color:white;
+    box-sizing: border-box;
+}
+.a:hover{
+    border:0.5px solid white;
+    background-color: transparent;
+    padding:5px;
+}
+.dehaze{
+    margin-left:8px;
+    display: flex;
+}
+.alldetails{
+    position: relative;
+    left:5px;
+    top:4.5px;
+}
+.primeshow{
+    display: flex;
+}
+.detailsoutlined{
+    height:10px !important;
+    width:10px !important;
+    color:lightgrey;
+    position:relative;
+    left:5px;
+    top:5px;
+}
+.imagedisplay{
+    position: relative;
+    left:40vw;
+    top:10px;    
+}
+

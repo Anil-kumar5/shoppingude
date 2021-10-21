@@ -1,0 +1,40 @@
+header{
+  display: flex;
+  background: grey;
+  margin-bottom: 10px;
+  padding:25px;
+  justify-content: space-between;
+}
+a{
+  text-decoration: none;
+  margin-left: 25px;
+  margin-right: 20px;
+}
+.cont{
+  display: flex;
+  justify-content: space-between;
+}
+.main{
+  padding:40px;
+  border:5px solid grey;
+  min-width: 30vw;
+}
+.butn{
+  padding:2px;
+  border:2px solid green;
+  border-radius: 20px;
+  margin:5px;
+  width:100px;
+  background: cornflowerblue;
+}
+.cart{
+  position: absolute;
+  left:47vw;
+  border:5px solid grey;
+  min-height:50vh;
+  min-width:50vh;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+}

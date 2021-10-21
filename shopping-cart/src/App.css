@@ -1,0 +1,12 @@
+.some{
+  width:200px;
+  height:200px;
+  border: 2px solid grey;
+  object-fit: fill;
+  padding-top:0;
+  margin:5px;
+}
+.ci{
+  float:left;
+  margin:5px;
+}

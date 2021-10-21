@@ -1,0 +1,14 @@
+.cartitems{
+    position:relative;
+    right:50px;
+}
+.image{
+    height:20px;
+    width:50px;
+}
+.listitem{
+    margin-left: 15px;
+}
+.title{
+    font-size:12px;
+}
